@@ -12,6 +12,11 @@ export default function BlogList() {
           <h3>{blog.title}</h3>
           <p>{blog.content}</p>
         </div>
+      <div className="blog-card">
+  <h3>{blog.title}</h3>
+  <p>{blog.content}</p>
+</div>
+
       ))}
     </div>
   );
