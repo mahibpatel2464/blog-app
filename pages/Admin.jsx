@@ -31,6 +31,9 @@ export default function Admin() {
       <br />
 
       <button onClick={handleAdd}>Add Blog</button>
+<button className="delete-btn" onClick={() => deleteBlog(blog.id)}>
+  Delete
+</button>
 
       <h3>Delete Blogs</h3>
       {blogs.map(blog => (
